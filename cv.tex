@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{multicol}
 \usepackage[parfill]{parskip}
 \geometry{a4paper, margin=0.75in}
 
@@ -13,15 +14,26 @@
     \huge{\textbf{Todor Dukov}}
 \end{center}
 
-\section*{Contacts}
+\begin{multicols}{2}
+    \section*{Contacts}
 
-\begin{tabbing}
-    \hspace{4cm} \= \hspace{8cm} \= \kill
-    \textbf{Email:} \> \href{mailto:todor@dukov.net}{todor@dukov.net} \\
-    \textbf{Phone:} \> +359 882 700 671 \\
-    \textbf{LinkedIn:} \> \href{https://www.linkedin.com/in/todor-dukov/}{https://www.linkedin.com/in/todor-dukov/} \\
-    \textbf{GitHub:} \> \href{https://github.com/toduko/}{https://github.com/toduko/} \\
-\end{tabbing}
+    \begin{tabbing}
+        \hspace{2cm} \= \hspace{8cm} \= \kill
+        \textbf{Email:} \> \href{mailto:todor@dukov.net}{todor@dukov.net} \\
+        \textbf{Phone:} \> +359 882 700 671 \\
+        \textbf{LinkedIn:} \> \href{https://www.linkedin.com/in/todor-dukov/}{https://www.linkedin.com/in/todor-dukov/} \\
+        \textbf{GitHub:} \> \href{https://github.com/toduko/}{https://github.com/toduko/} \\
+    \end{tabbing}
+
+    \section*{Skills}
+
+    \begin{itemize}
+        \item C++ (University coursework)
+        \item Java/Kotlin (Mobile application development)
+        \item JavaScript/TypeScript (React and ExpressJS)
+        \item Python (University coursework)
+    \end{itemize}
+\end{multicols}
 
 \section*{Education}
 
@@ -33,9 +45,9 @@
 
 \textbf{Teaching Assistant:}
 \begin{itemize}
-    \item Languages, Automata, and Computability (3 semesters + current semester)
+    \item Languages, Automata, and Computability (4 semesters)
     \item Design and Analysis of Algorithms (1 semester)
-    \item Logic Programming (current semester)
+    \item Logic Programming (1 semester)
 \end{itemize}
 
 \section*{Work Experience}
@@ -72,11 +84,11 @@
     \item Developed a mobile application using Vue, Cordova, and Firebase to facilitate the organization of football games for friend groups
 \end{itemize}
 
-\section*{Skills}
+\textbf{Junior Software Engineer @ MBition}
 
+\textit{January 2025 - Present}
 \begin{itemize}
-    \item \textbf{Programming Languages:} C++ (University coursework), Java/Kotlin (Mobile application development), JavaScript/TypeScript (React and ExpressJS)
-    \item \textbf{Technologies:} Firebase (used with React and Kotlin), Godot (Game development)
+    \item Developed embedded software solutions using the AUTOSAR framework for Mercedes-Benz vehicle systems.
 \end{itemize}
 
 \end{document}
