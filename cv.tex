@@ -2,97 +2,102 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{fontawesome}
 \usepackage{multicol}
 \usepackage[parfill]{parskip}
 \geometry{a4paper, margin=0.75in}
 
 \pagenumbering{gobble}
 
+\newcommand{\textwithhr}[1]{
+\textsc{#1}
+
+\vspace{-5mm} \hrulefill
+}
+
 \begin{document}
 
 \begin{center}
     \huge{\textbf{Todor Dukov}}
+
+    \normalsize{+359 882 700 671 $\mid$ \href{mailto:todor@dukov.net}{todor@dukov.net} $\mid$ \href{https://github.com/toduko}{\faGithubSquare \, todukov} $\mid$ \href{https://www.linkedin.com/in/todor-dukov}{\faLinkedinSquare \, Todor Dukov}}
 \end{center}
 
+\textwithhr{Education}
+
+\textbf{B.Sc. in Computer Science, Sofia University “St. Kliment Ohridski”} \hspace*{\fill} \textit{10/2021 -- 07/2025}
+
+\begin{itemize}
+    \item Achieved \textbf{5.75/6.00} overall GPA
+    \item Scored \textbf{6.00/6.00} on the State Examination
+\end{itemize}
+
+\textbf{Teaching Experience:}
+\begin{itemize}
+  \item \textbf{Languages, Automata, and Computability} (4 semesters):  
+        Delivered seminars on finite automata, regular expressions, context-free grammars, pushdown automata, and Turing machines.
+  \item \textbf{Design and Analysis of Algorithms} (1 semester):  
+        Covered asymptotic analysis, algorithm correctness and completeness, lower bounds, and computational complexity theory.
+  \item \textbf{Logic Programming} (1 semester):  
+        Taught first-order logic definability and satisfiability, Prolog programming, and resolution methods for predicate logic.
+\end{itemize}
+
+\textwithhr{Professional Experience}
+
+\textbf{Junior Software Engineer, MBition} \hspace*{\fill} \textit{01/2025 -- Present}  
+
+I engineer embedded software solutions for part of the \textbf{Mercedes-Benz} vehicle systems in accordance with the \textbf{AUTOSAR Classic (MICROSAR Classic)} standard, ensuring high reliability, scalability, and maintainability.  
+I am responsible for developing Base Layer Software for both the Application and Flash Bootloader modules of our team's ECUs using \textbf{DaVinci Configurator} and for integrating with \textbf{CANoe} to perform simulation and validation.  
+I also develop automation tools by writing \textbf{Groovy} scripts for configuration processes, \textbf{Python} scripts for software flashing and internal development tools, and \textbf{Bash} scripts to streamline internal toolchains.  
+I collaborate closely with cross-functional teams to optimize system performance, reduce integration time, and ensure smooth deployment.  
+
+\textbf{Junior Part-Time Software Engineer, Intellics Engineering} \hspace*{\fill} \textit{02/2022 -- 06/2022}  
+
+I designed and implemented a mobile application using \textbf{Vue.js}, \textbf{Cordova}, and \textbf{Firebase} to streamline the scheduling and coordination of football games for social groups.  
+I independently managed feature development and debugging to ensure the application functioned smoothly.  
+
+\textbf{Software Engineering Intern, Programista} \hspace*{\fill} \textit{11/2020 -- 12/2020}  
+
+I contributed to the development of a mobile coding education platform by implementing authentication and real-time database functionality with \textbf{Kotlin} and \textbf{Firebase}.  
+I actively applied best practices in coding and testing to maintain the platform's quality.
+
+\textbf{Software Engineering Intern, Musala Soft} \hspace*{\fill} \textit{06/2020}  
+
+I completed a two-week intensive internship that included seminars on modern software development practices.  
+I developed a real-time video chat application using \textbf{React} and \textbf{Express.js}, integrating WebRTC to enable peer-to-peer communication.  
+
+\textbf{Software Engineering Intern, Proxiad Bulgaria} \hspace*{\fill} \textit{01/2020 -- 03/2020}  
+
+I developed a multiplayer Hangman game with \textbf{Express.js} and \textbf{React} as part of my introduction to full-stack web development.  
+I also gained hands-on experience working with \textbf{Spring Boot} and \textbf{React} in a collaborative team environment.
+
+\textwithhr{Skills}
+
 \begin{multicols}{2}
-    \section*{Contacts}
+\noindent
+\textbf{Programming Languages:} \\
+C, C++, Python, Groovy, Bash, Kotlin, JavaScript, TypeScript, Java, GDscript, Vimscript, Haskell, Scheme, Prolog
 
-    \begin{tabbing}
-        \hspace{2cm} \= \hspace{8cm} \= \kill
-        \textbf{Email:} \> \href{mailto:todor@dukov.net}{todor@dukov.net} \\
-        \textbf{Phone:} \> +359 882 700 671 \\
-        \textbf{LinkedIn:} \> \href{https://www.linkedin.com/in/todor-dukov/}{https://www.linkedin.com/in/todor-dukov/} \\
-        \textbf{GitHub:} \> \href{https://github.com/toduko/}{https://github.com/toduko/} \\
-    \end{tabbing}
+\vspace{0.3em}
 
-    \section*{Skills}
+\textbf{Frameworks \& Libraries:} \\
+Pygame, Tkinter, Vue.js, React.js, Apache Cordova, Express.js, Mongoose, Spring Boot, Jest, SFML, Raylib
 
-    \begin{itemize}
-        \item C++ (University coursework)
-        \item Java/Kotlin (Mobile application development)
-        \item JavaScript/TypeScript (React and ExpressJS)
-        \item Python (University coursework)
-    \end{itemize}
+\vspace{0.3em}
+
+\textbf{Embedded Systems \& Standards:} \\
+AUTOSAR Classic (MICROSAR Classic), DaVinci Configurator, CANoe
+
+\vspace{0.3em}
+
+\textbf{Databases \& Backend:} \\
+Firebase, REST APIs, MySQL, MongoDB
+
+\vspace{0.3em}
+
+\textbf{Tools \& Platforms:} \\
+Git, Repo, Docker, Linux, JIRA, Make, CMake
+
 \end{multicols}
-
-\section*{Education}
-
-\textbf{Bachelor of Computer Science @ Sofia University “St. Kliment Ohridski”}
-
-\textit{October 2021 - July 2025}
-
-\textbf{GPA:} 
-\begin{itemize}
-  \item Coursework Average -- $5.75/6.00$
-  \item State Exam Score -- $6.00/6.00$
-\end{itemize}
-
-\textbf{Teaching Assistant:}
-\begin{itemize}
-    \item Languages, Automata, and Computability (4 semesters)
-    \item Design and Analysis of Algorithms (1 semester)
-    \item Logic Programming (1 semester)
-\end{itemize}
-
-\section*{Work Experience}
-
-\textbf{Software Engineering Intern @ Proxiad Bulgaria}
-
-\textit{January 2020 - March 2020}
-\begin{itemize}
-    \item Internship organized by high school
-    \item Developed a multiplayer Hangman game using ExpressJS and React
-    \item Gained experience in full-stack web application development with Spring Boot and React
-\end{itemize}
-
-\textbf{Software Engineering Intern @ Musala Soft}
-
-\textit{July 2020}
-\begin{itemize}
-    \item Two-week internship featuring workplace seminars
-    \item Developed a video chatting application using React and ExpressJS
-\end{itemize}
-
-\textbf{Software Engineering Intern @ Programista}
-
-\textit{November 2020 - December 2020}
-\begin{itemize}
-    \item Internship organized by high school
-    \item Contributed to the development and management of a mobile application for teaching coding, utilizing Kotlin and Firebase for authentication and database management
-\end{itemize}
-
-\textbf{Junior Part-Time Software Engineer @ Intellics Engineering}
-
-\textit{February 2022 - June 2022}
-\begin{itemize}
-    \item Developed a mobile application using Vue, Cordova, and Firebase to facilitate the organization of football games for friend groups
-\end{itemize}
-
-\textbf{Junior Software Engineer @ MBition}
-
-\textit{January 2025 - Present}
-\begin{itemize}
-    \item Developing embedded software solutions using the Vector implementation of the AUTOSAR Classic standard (MICROSAR Classic) for the Mercedes-Benz vehicle systems
-\end{itemize}
 
 \end{document}
